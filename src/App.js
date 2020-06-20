@@ -15,7 +15,6 @@ class App extends Component {
 
     }
   }
-
   handleSubmit = id => {
     let newCard = this.state.images.map(image => {
       if (id === image.id) {
